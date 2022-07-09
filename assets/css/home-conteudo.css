@@ -1,0 +1,146 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.banner {
+    width: 100%;
+}
+
+main {
+    background: linear-gradient(#FEFEFE 20%, #6d6c6c);
+}
+
+.titulo-principal {
+    clear: left;
+    font-size: 2em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+.utensilios {
+    float: left;
+    margin: 0 20px 20px 0;
+    width: 120px;
+}
+
+.principal {
+    
+    padding: 3em 0;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.principal p {
+    margin-bottom: 1em;
+    text-align: justify;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.mapa {
+    padding: 3em 0;
+}
+
+.mapa p {
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.mapa-conteudo {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.beneficios {  
+    padding: 3em 0;
+}
+
+.conteudo-beneficios {
+    margin: 0 auto;
+    width: 640px;
+}
+
+.lista-beneficios {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+}
+
+.itens {
+    line-height: 1.5;
+}
+
+.itens:first-child {
+    font-weight: bold;
+}
+
+.itens:before {
+    content: "★";
+}
+
+.img-beneficios {
+    box-shadow: 10px 10px 10px #00000098;
+    opacity: 1;
+    transition: 400ms;
+    width: 60%;
+}
+
+.img-beneficios:hover {
+    opacity: 0.3;
+}
+.video {
+    margin: 2em auto;
+    width: 560px;
+}
+
+@media screen and (max-width: 768px) {   
+    .principal, .mapa-conteudo, .conteudo-beneficios, .video {
+        width: auto;
+    }
+
+    .lista-beneficios, .img-beneficios {
+        width: 100%;
+    }
+    .banner {
+        height: 250px;
+    }
+
+    .principal h2 {
+        font-size: 1.7em;
+    }
+
+    .mapa h3 {
+        font-size: 1.7em;
+        margin-top: -0.8em;
+    }
+
+    .beneficios {
+        margin-top: -3em;
+    }
+
+    .itens {
+        margin-bottom: 1em;
+        text-align: center;
+    }
+
+    .video {
+        padding: 0 10px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .principal, .mapa-conteudo {
+        padding: 0 10px ;
+        width: auto;
+    }
+
+    .principal h2 {
+        padding-top: 1.5em;
+    }
+}
